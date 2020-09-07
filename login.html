@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<style>
+.container{
+    position: absolute;
+    margin: -150px 0px 0px -200px;
+    top: 50%;
+    left: 50%;
+    padding: 5px;
+}
+#loginId, #loginPw{
+    width: 200px;
+    height: 25px;
+    margin-top: 10px;
+}
+.labelId{
+    font-size:14px;
+    margin-left: 15px;
+    margin-right: 22px;
+}
+.labelPw{
+    font-size:14px;
+    margin-left: 15px;
+    margin-right: 8px;
+}
+#loginbtn{
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    position: relative;
+    top: 15px;
+    left: 187px;
+}
+</style>
+</head>
+<body>
+    <div class="container">
+        <h1>로그인</h1>
+        <div class="loginBox">
+            <label for="loginId" class="labelId">아이디</label>
+            <input type="text" id="loginId"><br><br>
+            <label for="passwd" class="labelPw">패스워드</label> 
+            <input type="password" id="loginPw">
+            <div>
+             <input type="button" id="loginbtn" value="로그인">
+             </div>
+        </div>
+    </div> 
+</body>
+</html>
